@@ -1,26 +1,62 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import api from "../src/services/api";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  state = {
+    baseIn: "",
+    baseOut: "",
+    valueIn: "",
+    repo: "",
+    valueOut: "vazio"
+  };
+
+  returnApi = async e => {
+    e.preventDefault();
+
+    try {
+      const { data } = await api.get(
+        `Converter?basein=${this.state.baseIn}&input=${
+          this.state.valueIn
+        }&baseout=${this.state.baseOut}`
+      );
+      console.log(data);
+      this.setState({ valueOut: data });
+    } catch (error) {
+      console.log("ERROR: " + error);
+      this.setState({ valueOut: "deu erro!" });
+    }
+  };
+
+  render() {
+    return (
+      <div>
+        <form onSubmit={this.returnApi}>
+          <input
+            type="text"
+            placeholder="Base de entrada"
+            value={this.state.baseIn}
+            onChange={e => this.setState({ baseIn: e.target.value })}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="Base de saída"
+            value={this.state.baseOut}
+            onChange={e => this.setState({ baseOut: e.target.value })}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="Valor de entrada"
+            value={this.state.valueIn}
+            onChange={e => this.setState({ valueIn: e.target.value })}
+          />
+          <br />
+          <button type="submit">Converter</button>
+        </form>
+        <h1>{this.state.valueOut}</h1>
+      </div>
+    );
+  }
 }
-
-export default App;
