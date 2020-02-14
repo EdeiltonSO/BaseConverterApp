@@ -51,7 +51,7 @@ export default class App extends Component {
             onChange={e => this.setState({ baseOut: e.target.value })}
           />
           <br />
-          <p className="subtitle">VALORES</p>
+          <p className="subtitle">VALOR</p>
           <input
             className="valueIn"
             type="text"
