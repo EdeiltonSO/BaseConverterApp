@@ -1,3 +1,107 @@
 body {
-  /* background-color: rgb(41, 12, 80); */
+  background-color: rgb(41, 12, 80);
+}
+
+div.content {
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+p#title {
+  text-align: center;
+  color: rgb(181, 176, 253);
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+p.subtitle {
+  font-weight: bolder;
+  letter-spacing: 3px;
+  font-size: 15px;
+  margin: 10px;
+  margin-bottom: 0;
+  width: 225px;
+  text-align: center;
+  color: rgb(181, 176, 253);
+}
+
+span#to {
+  font-size: 30px;
+  margin-top: 10px;
+  color: rgb(181, 176, 253);
+}
+
+input.base {
+  width: 75px;
+  border: 0;
+  background: none;
+  border-bottom: 2px solid rgb(181, 176, 253);
+  margin: 10px;
+  margin-top: 5px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+input.valueIn {
+  width: 205px;
+  border: 0;
+  background: none;
+  border-bottom: 2px solid rgb(181, 176, 253);
+  margin: 10px;
+  margin-top: 5px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+h1.valueOut {
+  width: 225px;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+button.convert {
+  background-color: rgb(255, 100, 125);
+  width: 225px;
+  height: 50px;
+  border: 0;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 7px;
+}
+
+button.convert:hover {
+  background-color: rgb(202, 70, 92);
+}
+
+/* PLACEHOLDER */
+
+::-webkit-input-placeholder {
+  color: rgb(80, 68, 155);
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgb(80, 68, 155);
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgb(80, 68, 155);
+}
+
+:-ms-input-placeholder {
+  color: rgb(80, 68, 155);
 }
