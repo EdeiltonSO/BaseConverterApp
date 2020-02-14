@@ -11,7 +11,7 @@ div.content {
 p#title {
   text-align: center;
   color: rgb(181, 176, 253);
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 25px;
 }
 
@@ -19,8 +19,7 @@ p.subtitle {
   font-weight: bolder;
   letter-spacing: 3px;
   font-size: 15px;
-  margin: 10px;
-  margin-bottom: 0;
+  margin: 30px 10px 0px 10px;
   width: 225px;
   text-align: center;
   color: rgb(181, 176, 253);
@@ -62,7 +61,7 @@ input.valueIn {
 
 h1.valueOut {
   width: 225px;
-  margin: 10px;
+  margin: 20px 10px;
   text-align: center;
   color: #fff;
 }
