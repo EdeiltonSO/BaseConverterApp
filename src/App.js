@@ -14,10 +14,9 @@ export default class App extends Component {
     e.preventDefault();
 
     try {
+      this.setState({ valueOut: "carregando..." });
       const { data } = await api.get(
-        `Converter?basein=${this.state.baseIn}&input=${
-          this.state.valueIn
-        }&baseout=${this.state.baseOut}`
+        `Converter?basein=${this.state.baseIn}&input=${this.state.valueIn}&baseout=${this.state.baseOut}`
       );
       console.log(data);
       this.setState({ valueOut: data });
