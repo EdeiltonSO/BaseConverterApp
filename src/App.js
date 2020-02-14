@@ -7,7 +7,6 @@ export default class App extends Component {
     baseIn: "",
     baseOut: "",
     valueIn: "",
-    repo: "",
     valueOut: "vazio"
   };
 
