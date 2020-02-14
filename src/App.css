@@ -14,6 +14,13 @@ p#title {
   font-size: 30px;
   margin-bottom: 25px;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+
+  /* evitar seleção do texto */
+  -webkit-touch-callout: none; /* iPhone OS, Safari */
+  -webkit-user-select: none; /* Chrome, Safari 3 */
+  -khtml-user-select: none; /* Safari 2 */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
 }
 
 p.subtitle {
@@ -25,12 +32,26 @@ p.subtitle {
   text-align: center;
   color: rgb(181, 176, 253);
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+
+  /* evitar seleção do texto */
+  -webkit-touch-callout: none; /* iPhone OS, Safari */
+  -webkit-user-select: none; /* Chrome, Safari 3 */
+  -khtml-user-select: none; /* Safari 2 */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
 }
 
 span#to {
   font-size: 30px;
   margin-top: 10px;
   color: rgb(181, 176, 253);
+
+  /* evitar seleção do texto */
+  -webkit-touch-callout: none; /* iPhone OS, Safari */
+  -webkit-user-select: none; /* Chrome, Safari 3 */
+  -khtml-user-select: none; /* Safari 2 */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
 }
 
 input.base {
@@ -91,6 +112,13 @@ button.convert {
   letter-spacing: 2px;
   border-radius: 7px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+
+  /* evitar seleção do texto */
+  -webkit-touch-callout: none; /* iPhone OS, Safari */
+  -webkit-user-select: none; /* Chrome, Safari 3 */
+  -khtml-user-select: none; /* Safari 2 */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
 }
 
 button.convert:hover {
