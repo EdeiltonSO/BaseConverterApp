@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to left, #431482, #290c50);
+  background: rgb(41, 12, 80);
 }
 
 div.content {
@@ -13,6 +13,7 @@ p#title {
   color: rgb(181, 176, 253);
   font-size: 30px;
   margin-bottom: 25px;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
 }
 
 p.subtitle {
@@ -23,6 +24,7 @@ p.subtitle {
   width: 275px;
   text-align: center;
   color: rgb(181, 176, 253);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
 }
 
 span#to {
@@ -35,13 +37,15 @@ input.base {
   font-family: "Segoe UI Light", "Roboto", "Droid Sans", "Helvetica Neue",
     sans-serif;
   width: 100px;
+  height: 36px;
   border: 0;
+  /* background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)); */
   background: none;
   border-bottom: 1px solid rgb(181, 176, 253);
   margin: 10px;
   margin-top: 5px;
   padding: 10px;
-  font-size: 27px;
+  font-size: 24px;
   text-align: center;
   color: #fff;
   border-radius: 10px;
@@ -51,13 +55,15 @@ input.valueIn {
   font-family: "Segoe UI Light", "Roboto", "Droid Sans", "Helvetica Neue",
     sans-serif;
   width: 255px;
+  height: 36px;
   border: 0;
+  /* background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)); */
   background: none;
   border-bottom: 1px solid rgb(181, 176, 253);
   margin: 10px;
   margin-top: 5px;
   padding: 10px;
-  font-size: 27px;
+  font-size: 24px;
   text-align: center;
   color: #fff;
   border-radius: 10px;
@@ -70,6 +76,7 @@ h1.valueOut {
   margin: 30px 10px;
   text-align: center;
   color: #fff;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
 }
 
 button.convert {
