@@ -13,7 +13,7 @@ img#logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 p#title {
@@ -115,6 +115,7 @@ button.convert {
   height: 50px;
   border: 0;
   margin: 10px;
+  margin-bottom: 15px;
   padding: 10px;
   text-align: center;
   color: #fff;
