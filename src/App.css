@@ -32,7 +32,6 @@ p#title {
 }
 
 p.subtitle {
-  font-weight: bolder;
   letter-spacing: 3px;
   font-size: 15px;
   margin: 40px 10px 0px 10px;
@@ -63,8 +62,6 @@ span#to {
 }
 
 input.base {
-  font-family: "Segoe UI Light", "Roboto", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   width: 100px;
   height: 36px;
   border: 0;
@@ -81,8 +78,6 @@ input.base {
 }
 
 input.valueIn {
-  font-family: "Segoe UI Light", "Roboto", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   width: 255px;
   height: 36px;
   border: 0;
@@ -119,7 +114,7 @@ button.convert {
   padding: 10px;
   text-align: center;
   color: #fff;
-  font-weight: bolder;
+  font-weight: 400;
   font-size: 18px;
   letter-spacing: 2px;
   border-radius: 7px;
