@@ -84,14 +84,13 @@ input.valueIn {
 }
 
 h1.valueOut {
-  font-family: "Segoe UI Light", "Roboto", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   width: 275px;
   letter-spacing: 2px;
   margin: 30px 10px;
   word-wrap: break-word;
   text-align: center;
   color: #fff;
+  font-weight: 400;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
 }
 
