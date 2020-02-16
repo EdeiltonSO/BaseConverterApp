@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import api from "../src/services/api";
+import BCALogo from "../src/assets/bca_logo.png";
 
 export default class App extends Component {
   state = {
@@ -29,6 +30,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="content">
+        <img src={BCALogo} id="logo" alt="BCA" />
         <p id="title">
           base<strong>converter</strong>app
         </p>

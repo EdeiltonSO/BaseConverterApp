@@ -1,11 +1,19 @@
 body {
-  background: rgb(41, 12, 80);
+  background: rgb(26, 7, 51);
 }
 
 div.content {
   padding: 10px;
   width: fit-content;
   margin: 0 auto;
+}
+
+img#logo {
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
 
 p#title {
@@ -102,6 +110,7 @@ h1.valueOut {
 
 button.convert {
   background: linear-gradient(to top, rgb(156, 48, 65), rgb(224, 73, 97));
+  /* background: rgb(190, 34, 60); */
   width: 275px;
   height: 50px;
   border: 0;
@@ -125,7 +134,7 @@ button.convert {
 }
 
 button.convert:hover {
-  background: linear-gradient(to bottom, rgb(156, 48, 65), rgb(156, 48, 65));
+  background: rgb(156, 48, 65);
 }
 
 /* PLACEHOLDER */
