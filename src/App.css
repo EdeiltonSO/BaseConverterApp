@@ -69,6 +69,7 @@ input.base {
   font-size: 24px;
   text-align: center;
   color: #fff;
+  outline: none;
 }
 
 input.valueIn {
@@ -86,6 +87,7 @@ input.valueIn {
   font-size: 24px;
   text-align: center;
   color: #fff;
+  outline: none;
 }
 
 h1.valueOut {
@@ -112,6 +114,7 @@ button.convert {
   letter-spacing: 2px;
   border-radius: 7px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+  outline: none;
 
   /* evitar seleção do texto */
   -webkit-touch-callout: none; /* iPhone OS, Safari */
