@@ -96,8 +96,8 @@ h1.valueOut {
 }
 
 button.convert {
-  /* background: linear-gradient(to top, rgb(156, 48, 65), rgb(224, 73, 97)); */
-  background: linear-gradient(to top, rgb(156, 48, 65), rgb(201, 53, 77));
+  /* background: linear-gradient(to top, rgb(156, 48, 65), rgb(201, 53, 77)); */
+  background: linear-gradient(225deg, rgb(72, 51, 98), rgb(200, 53, 77));
   /* background: rgb(201, 53, 77); */
   width: 275px;
   height: 50px;
@@ -110,7 +110,7 @@ button.convert {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 2px;
-  border-radius: 7px;
+  border-radius: 4px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
   outline: none;
 
